@@ -14,35 +14,35 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        Romana: ["ROMANA"],
-        Grold: ["GROLD"],
+        Sherif: ["SHERIF"],
+        Gilroy: ["GILROY"],
       },
       colors: {
         "primary-color": "#1f4d9b",
-        "secondary-color": "#596270",
-        "title-color": "#1f2937",
+        "secondary-color": "#6b7280",
+        "title-color": "#111827",
       },
     },
     screens: {
-      'xxsm': '320px',
+      xxsm: "320px",
 
-      'xsm': '412px',
-      
-      'sm': '640px',
+      xsm: "412px",
+
+      sm: "640px",
       // => @media (min-width: 640px) { ... }
 
-      'md': '768px',
+      md: "768px",
       // => @media (min-width: 768px) { ... }
 
-      'lg': '1024px',
+      lg: "1024px",
       // => @media (min-width: 1024px) { ... }
 
-      'xl': '1280px',
+      xl: "1280px",
       // => @media (min-width: 1280px) { ... }
 
-      '2xl': '1536px',
+      "2xl": "1536px",
       // => @media (min-width: 1536px) { ... }
-    }
+    },
   },
   plugins: [],
 };

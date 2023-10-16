@@ -4,25 +4,26 @@
 
 :root {
   --primary-color: #1f4d9b;
-  --secondary-color: #596270;
-  --title-color: #1f2937;
-  --bg-gray: "#FAFCFE";
+  --secondary-color: #6b7280;
+  --title-color: #111827;
+  --bg-gray: "#fbfcfe";
 }
 
 @font-face {
-  font-family: ROMANA;
-  src: url("../public/fonts/romana.ttf");
+  font-family: SHERIF;
+  src: url("../public/fonts/dm-sherif.ttf");
 }
 
 @font-face {
-  font-family: GROLD;
-  src: url("../public/fonts/grold-regular.ttf");
+  font-family: GILROY;
+  src: url("../public/fonts/gilroy.ttf");
 }
 
 body {
   background-color: var(--bg-gray);
-  font-family: GROLD !important;
+  font-family: GILROY !important;
   color: var(--secondary-color);
+  font-weight: lighter !important;
 }
 
 h1,
@@ -31,7 +32,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: ROMANA !important;
+  font-family: SHERIF !important;
 }
 
 .wrap {

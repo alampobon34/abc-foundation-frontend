@@ -4,9 +4,9 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="wrap bg-transparent bg-opacity-60">
+    <div className="wrap">
       <div className="flex justify-between items-center">
-        <div style={{lineHeight: "10px"}}>
+        <div style={{ lineHeight: "10px" }}>
           <h1 className="text-xl text-primary-color">ABC</h1>
           <p style={{ letterSpacing: "4px" }}>FOUNDATION</p>
         </div>

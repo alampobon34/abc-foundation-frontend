@@ -14,8 +14,10 @@ interface MissionCardProps {
 
 const MissionCard = ({ item, styles }: MissionCardProps) => {
   return (
-    <div className={`bg-white border rounded shadow-sm p-4 w-72 md:w-80 flex flex-col justify-center items-center gap-4 ${styles}`}>
-      <Image className="" src={item.image} height={120} width={120} alt="" />
+    <div
+      className={`bg-white shadow-lg p-4 flex flex-col justify-center items-center gap-4 ${styles}`}
+    >
+      <Image className="" src={item.image} height={50} width={50} alt="" />
       <h1 className="text-2xl font-bold text-title-color">{item.title}</h1>
       <p className="text-center">{item.desc}</p>
     </div>
