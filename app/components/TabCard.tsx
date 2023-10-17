@@ -5,10 +5,11 @@ interface TabCardProps {
   title: string;
   subtitle: string;
   image: string;
-  handleTab: () => void;
+  handleTab: (e: any) => any;
   tab: boolean;
 }
 const TabCard = ({ title, subtitle, image, handleTab, tab }: TabCardProps) => {
+  const [arrow, setArrow] = useState(false);
   return (
     <div
       onClick={handleTab}
@@ -26,7 +27,7 @@ const TabCard = ({ title, subtitle, image, handleTab, tab }: TabCardProps) => {
         </p>
       </div>
 
-      {tab && (
+      {arrow &&  (
         <div>
           <Image
             src="/donation/arrow-right.svg"

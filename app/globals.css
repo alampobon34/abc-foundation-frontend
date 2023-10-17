@@ -6,7 +6,8 @@
   --primary-color: #1f4d9b;
   --secondary-color: #6b7280;
   --title-color: #111827;
-  --bg-gray: "#fbfcfe";
+  --bg-gray: #E1EAF3;
+  --achievement-bg-color: #E1EAF3;
 }
 
 @font-face {

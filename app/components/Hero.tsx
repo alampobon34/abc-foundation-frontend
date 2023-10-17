@@ -30,8 +30,8 @@ const Hero = () => {
       </div>
       <div className="w-screen bg-blue-100 -mt-16">
         <Image
-          className="w-full z-30"
-          src="/bg.jpg"
+          className="w-full z-30 object-contain"
+          src="/bg.png"
           height={200}
           width={200}
           alt=""

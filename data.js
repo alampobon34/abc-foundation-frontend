@@ -33,3 +33,76 @@ export const DONATIONS = [
     image: "/donation/sponsor.svg",
   },
 ];
+
+export const ACHIEVEMENT = [
+  {
+    name: "ANNUAL BUDGET",
+    value: 54000,
+    percentage: 30,
+  },
+  {
+    name: "DISTRICT COVERAGE",
+    value: 53,
+    percentage: 52,
+  },
+  {
+    name: "ACTIVE BRANCHES",
+    value: 231,
+    percentage: 45,
+  },
+  {
+    name: "ACTIVE VOLUNTEER",
+    value: 3337,
+    percentage: 48,
+  },
+];
+
+export const PROJECTS = [
+  {
+    title: "ABC Mother & Child care hospital",
+    desc: "To ensure proper treatment for general public who is under povert.",
+    goal: 120000,
+    raised: 30000,
+    image: "/projects/01.jpg",
+  },
+
+  {
+    title: "Zakat for unemployment muslim",
+    desc: "Aged muslim people whose are unable to earn money, these pro.",
+    goal: 120000,
+    raised: 30000,
+    image: "/projects/02.jpg",
+  },
+  {
+    title: "Scholarship Programe for children",
+    desc: "Aged muslim people whose are unable to earn money, these pro ..",
+    goal: 120000,
+    raised: 30000,
+    image: "/projects/03.jpg",
+  },
+  {
+    title: "Let’s fight agnaist COVID-19",
+    desc: "During in these crisis corona period let’s work together to ensure ",
+    goal: 120000,
+    raised: 100000,
+    image: "/projects/04.jpg",
+  },
+];
+
+export const PRESS = [
+  {
+    name: "All",
+  },
+  {
+    name: "Covid-19",
+  },
+  {
+    name: "1 Takar Ahar",
+  },
+  {
+    name: "Education",
+  },
+  {
+    name: "Health Care",
+  },
+];
