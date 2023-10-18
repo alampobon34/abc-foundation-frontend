@@ -183,7 +183,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 place-items-center md:grid-cols-3 md:justify-items-center">
+          <div className="grid grid-cols-1 place-items-center md:grid-cols-3 md:justify-items-center gap-4">
             {PROJECTS.map((item, index) => (
               <ProjectCard item={item} key={index} />
             ))}
