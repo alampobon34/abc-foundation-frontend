@@ -10,11 +10,12 @@ interface MissionCardProp {
 interface MissionCardProps {
   item: MissionCardProp;
   styles?: string;
+  aos?: string,
 }
 
-const MissionCard = ({ item, styles }: MissionCardProps) => {
+const MissionCard = ({ item, styles, aos }: MissionCardProps) => {
   return (
-    <div
+    <div data-aos={aos}
       className={`bg-white shadow-lg p-4 flex flex-col justify-center items-center gap-4 ${styles}`}
     >
       <Image className="" src={item.image} height={50} width={50} alt="" />

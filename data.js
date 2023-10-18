@@ -106,3 +106,24 @@ export const PRESS = [
     name: "Health Care",
   },
 ];
+
+export const NEWS = [
+  {
+    title: "Help Save Poor Children In Bangladesh",
+    publistDate: "19th Mar, 2022",
+    desc: "With Introsnap you send to customers that build relationship",
+    image: "/press/01.jpg",
+  },
+  {
+    title: "Help Save Poor Children In Bangladesh",
+    publistDate: "19th Mar, 2022",
+    desc: "With Introsnap you send to customers that build relationship",
+    image: "/press/02.jpg",
+  },
+  {
+    title: "Help Save Poor Children In Bangladesh",
+    publistDate: "19th Mar, 2022",
+    desc: "With Introsnap you send to customers that build relationship",
+    image: "/press/03.jpg",
+  },
+];

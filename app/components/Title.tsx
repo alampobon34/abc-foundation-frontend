@@ -6,7 +6,7 @@ interface TitleProps {
 }
 const Title = ({name, styles}: TitleProps) => {
   return (
-    <h1 className='text-title-color text-xl md:text-4xl font-bold'>{name}</h1>
+    <h1 className='text-title-color text-2xl md:text-4xl font-bold'>{name}</h1>
   )
 }
 

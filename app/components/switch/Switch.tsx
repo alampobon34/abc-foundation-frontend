@@ -12,7 +12,7 @@ const Switch = ({ value, onChange }: SwitchProps) => {
   };
   return (
     <>
-      <label className="themeSwitcherTwo shadow-card relative inline-flex cursor-pointer select-none items-center justify-center bg-primary-color p-1">
+      <label className="outline-none themeSwitcherTwo shadow-card relative inline-flex cursor-pointer select-none items-center justify-center bg-primary-color p-1">
         <input
           type="checkbox"
           className="sr-only"

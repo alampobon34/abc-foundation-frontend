@@ -20,7 +20,7 @@ const Button = ({
     return (
       <button
         onClick={handleClick}
-        className={`text-md text-primary-color font-extralight border border-primary-color py-1 px-4 ${
+        className={`text-primary-color font-extralight border border-primary-color py-1 px-4 ${
           isActive
             ? "bg-primary-color text-white"
             : "bg-white hover:bg-primary-color hover:text-white"

@@ -5,13 +5,21 @@ interface TabCardProps {
   title: string;
   subtitle: string;
   image: string;
-  handleTab: (e: any) => any;
-  tab: boolean;
+  handleTab: (index: any) => any;
+  isActive?: any;
+  aos?: string
 }
-const TabCard = ({ title, subtitle, image, handleTab, tab }: TabCardProps) => {
+const TabCard = ({
+  title,
+  subtitle,
+  image,
+  handleTab,
+  isActive,
+  aos
+}: TabCardProps) => {
   const [arrow, setArrow] = useState(false);
   return (
-    <div
+    <div data-aos={aos} data-aos-duration="2000"
       onClick={handleTab}
       className="bg-black bg-opacity-25 flex items-center p-1 gap-2 cursor-pointer hover:bg-white hover:bg-opacity-10"
     >
@@ -27,7 +35,7 @@ const TabCard = ({ title, subtitle, image, handleTab, tab }: TabCardProps) => {
         </p>
       </div>
 
-      {arrow &&  (
+      {isActive && (
         <div>
           <Image
             src="/donation/arrow-right.svg"
