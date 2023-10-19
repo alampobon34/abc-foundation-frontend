@@ -8,14 +8,16 @@ interface ProjectCardProp {
   goal: number;
   raised: number;
   image: string;
+
 }
 
 interface ProjectCardProps {
   item: ProjectCardProp;
+  styles?: string
 }
-const ProjectCard = ({ item }: ProjectCardProps) => {
+const ProjectCard = ({ item, styles }: ProjectCardProps) => {
   return (
-    <div className="w-72 md:w-80 h-[530px] p-3 bg-white">
+    <div className={`w-full h-[530px] p-3 bg-white ${styles}`}>
       <div className="w-full flex flex-col gap-4">
         <Image
           objectFit="cover"

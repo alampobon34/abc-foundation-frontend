@@ -182,10 +182,10 @@ export default function Home() {
               </div>
             </div>
           </div>
-
-          <div className="grid grid-cols-1 place-items-center md:grid-cols-3 md:justify-items-center gap-4">
+          {/* styles={index === 1 ? 'mx-auto' : index===0 ? 'place-items-start' : 'ml-auto'} */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-x-14 md:mx-auto gap-y-4 place-items-center">
             {PROJECTS.map((item, index) => (
-              <ProjectCard item={item} key={index} />
+              <ProjectCard item={item}  key={index} />
             ))}
           </div>
         </div>
@@ -276,7 +276,7 @@ export default function Home() {
         <div className="container flex flex-col justify-center items-center gap-5 py-10">
           <Title name="Subscribe us" />
           <p>For News, Updates and Promotional events</p>
-          <div data-aos="flip-down" className="w-4/5 bg-white p-5">
+          <div data-aos="flip-down" className="w-full md:w-4/5 bg-white p-5">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <input
                 className="flex-1 py-2 outline-none xxsm:my-2 xsm:my-2 md:my-0"
