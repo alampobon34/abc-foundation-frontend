@@ -3,6 +3,10 @@
 
 This website belongs to a charitable organization. It is built with Tailwind CSS, TypeScript, and Nextjs.
 
+**Major Features**
+1. Responsive
+2. Filter
+
 **Technology Used-**
 1. Next JS
 2. TypeScript
